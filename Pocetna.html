@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DOBRODOSLI NA COREX_CORAL_PLUS
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="logoPocetna.css">
+        <link rel="stylesheet" type="text/css" href="pocetnadizajn.css">
+        <link rel="stylesheet" href="controltable.css">
+        <link rel="stylesheet" href="sideanimations.css">
+    </head>
+    <body>
+        <div class="cube">
+            <div class="top"></div>
+            <div>
+                <span style="--i:0;">
+                    <img src="LOGO2dark.png" width="300" height="280">
+                    <img src="LOGO2.png" width="300" height="300">
+                </span>
+                <span style="--i:1;">
+                    <img src="LOGO1.png" width="300" height="280">
+                    <img src="LOGO1.png" width="300" height="280">
+                </span>
+                <span style="--i:2;">
+                    <img src="LOGO2dark.png" width="300" height="280">
+                    <img src="LOGO2.png" width="300" height="300">
+                </span>
+                <span style="--i:3;">
+                    <img src="LOGO1.png" width="300" height="280">
+                    <img src="LOGO1.png" width="300" height="280">
+                </span>
+            </div>
+        </div>
+
+        <div class="parallax"></div>
+
+        <div style="height:1000px;width: 50%;background-color:red;font-size:36px">
+            TEHNIČKI PREGLED I REGISTRACIJA VOZILA NOVO!!!
+            <br>
+            Pozovite nas ukoliko Vam je potreban savet ili pomoć, biće nam zadovoljstvo da sarađujemo sa Vama <br>
+            <br>
+            Tehnički pregled ''Corex Coral doo'' nudi sledeće usluge: <br>
+            - tehnički pregled vozila <br>
+            - registracija vozila <br>
+            - zeleni karton <br>
+            - prenos vlasništva i ostale agencijske usluge <br>
+            <br>
+            * Registracija vozila preko administrativne zabrane <br>
+            <br>
+            * * PLAĆANJE U VIŠE RATA *<br>
+            <br>
+            Tu smo za Vas!
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">POCETNA</span>
+                    </a>
+                </li>
+                <li class="list" onclick="Lokacija()">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <span class="text">LOKACIJA</span>
+                    </a>
+                </li>
+                <li class="list" onclick="Onama()">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-circle-outline"></ion-icon>
+                        </span>
+                        <span class="text">O NAMA</span>
+                    </a>
+                </li>
+                <li class="list" onclick="Kontakt()">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <span class="text">KONTAKT</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+
+        <div class="control_table">
+            <div class="control_table_base_left">
+                <img src="ControlTableBorderLeft.png" width="50" height="50">
+            </div>
+            <div class="control_table_base_right">
+                <img src="ControlTableBorderRight.png" width="50" height="50">
+            </div>
+            <div class="clock">
+                <div class="circle" id="sc" style="--clr:#04fc43;"><i></i></div>
+                <div class="circle circle2" id="mn" style="--clr:#fee800;"><i></i></div>
+                <div class="circle circle3" id="hr" style="--clr:#ff2972;"><i></i></div>
+
+                <span style="--i:1;"><b>1</b></span>
+                <span style="--i:2;"><b>2</b></span>
+                <span style="--i:3;"><b>3</b></span>
+                <span style="--i:4;"><b>4</b></span>
+                <span style="--i:5;"><b>5</b></span>
+                <span style="--i:6;"><b>6</b></span>
+                <span style="--i:7;"><b>7</b></span>
+                <span style="--i:8;"><b>8</b></span>
+                <span style="--i:9;"><b>9</b></span>
+                <span style="--i:10;"><b>10</b></span>
+                <span style="--i:11;"><b>11</b></span>
+                <span style="--i:12;"><b>12</b></span>
+            </div>
+            <div id="time">
+                <div id="hours" style="--clr:#ff2972;">00</div>
+                <div id="minutes" style="--clr:#fee800;">00</div>
+                <div id="seconds" style="--clr:#04fc43;">00</div>
+                <div id="ampm">AM</div>
+            </div>
+            <p>COREX CORAL PLUS</p>
+        </div>
+
+        <div class="loader">
+            <span style="--a:20"></span>
+            <span style="--a:19"></span>
+            <span style="--a:18"></span>
+            <span style="--a:17"></span>
+            <span style="--a:16"></span>
+            <span style="--a:15"></span>
+            <span style="--a:14"></span>
+            <span style="--a:13"></span>
+            <span style="--a:12"></span>
+            <span style="--a:11"></span>
+            <span style="--a:10"></span>
+            <span style="--a:9"></span>
+            <span style="--a:8"></span>
+            <span style="--a:7"></span>
+            <span style="--a:6"></span>
+            <span style="--a:5"></span>
+            <span style="--a:4"></span>
+            <span style="--a:3"></span>
+            <span style="--a:2"></span>
+            <span style="--a:1"></span>
+        </div>
+
+        <div class="loader2">
+            <span style="--a:20"></span>
+            <span style="--a:19"></span>
+            <span style="--a:18"></span>
+            <span style="--a:17"></span>
+            <span style="--a:16"></span>
+            <span style="--a:15"></span>
+            <span style="--a:14"></span>
+            <span style="--a:13"></span>
+            <span style="--a:12"></span>
+            <span style="--a:11"></span>
+            <span style="--a:10"></span>
+            <span style="--a:9"></span>
+            <span style="--a:8"></span>
+            <span style="--a:7"></span>
+            <span style="--a:6"></span>
+            <span style="--a:5"></span>
+            <span style="--a:4"></span>
+            <span style="--a:3"></span>
+            <span style="--a:2"></span>
+            <span style="--a:1"></span>
+        </div>
+        
+        <script>
+            let hr = document.querySelector('#hr');
+            let mn = document.querySelector('#mn');
+            let sc = document.querySelector('#sc');
+
+            setInterval(() => {
+                let day = new Date();
+                let hh = day.getHours() * 30;
+                let mm = day.getMinutes() * 6;
+                let ss = day.getSeconds() * 6;
+
+                hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
+                mn.style.transform = `rotateZ(${mm}deg)`;
+                sc.style.transform = `rotateZ(${ss}deg)`;
+
+                let hours = document.getElementById('hours');
+                let minutes = document.getElementById('minutes');
+                let seconds = document.getElementById('seconds');
+                let ampm = document.getElementById('ampm');
+
+                let h = new Date().getHours();
+                let m = new Date().getMinutes();
+                let s = new Date().getSeconds();
+
+                let am = h >= 12 ? "PM" : "AM";
+
+                if(h > 12){
+                    h = h - 12;
+                }
+
+                h = (h < 10) ? "0" + h : h
+                m = (m < 10) ? "0" + m : m
+                s = (s < 10) ? "0" + s : s
+
+                hours.innerHTML = h;
+                minutes.innerHTML = m;
+                seconds.innerHTML = s;
+                ampm.innerHTML = am;
+            })
+        </script>
+
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) => item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) => item.addEventListener('click', activeLink));
+
+            function Lokacija(){
+                setTimeout(function(){ window.location.href = "LOKACIJA.html"; }, 500);
+            }
+
+            function Onama(){
+                setTimeout(function(){ window.location.href = "ONAMA.html"; }, 500);
+            }
+
+            function Kontakt(){
+                setTimeout(function(){ window.location.href = "KONTAKT.html"; }, 500);
+            }
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
